@@ -5,8 +5,6 @@ module.exports = (event, context) => {
 
     if(event.path == "/home") {
         redirect = "https://brandonkalinowski.com/";
-    } else if(event.path == "/sponsors" || event.path == "/insiders") {
-        redirect = "https://github.com/users/alexellis/sponsorship";
     } else if(event.path == "/inlets") {
         redirect = "https://inlets.dev";
     } else if(event.path == "/k3sup") {
