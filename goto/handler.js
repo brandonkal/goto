@@ -11,6 +11,8 @@ module.exports = (event, context) => {
         redirect = "https://k3sup.dev";
     } else if(event.path == "/github") {
         redirect = "https://github.com/brandonkal";
+    } else if(event.path == "/git") {
+        redirect = "https://github.com/brandonkal";
     }
 
     process.stderr.write(event.path)
