@@ -5,8 +5,8 @@ module.exports = (event, context) => {
 
 	if (event.path == '/home') {
 		redirect = 'https://brandonkalinowski.com/'
-	} else if (event.path == '/inlets') {
-		redirect = 'https://inlets.dev'
+	} else if (event.path == '/bible') {
+		redirect = 'https://videos.sproutvideo.com/embed/489bdfbb141de3c3c0/8c9f87bbe27f923a?signature=j%2BXxgvEJlnwqr%2BmNS1ISxLc%2BC6E%3D&autoplay=false&expires=1591568617&type=hd'
 	} else if (event.path == '/k3sup') {
 		redirect = 'https://k3sup.dev'
 	} else if (event.path == '/github') {
